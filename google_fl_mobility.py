@@ -98,7 +98,7 @@ def goog_cleanup(df):
 fl = goog_cleanup(fl)
 
 # %%
-display(fl)
+print(fl)
 
 # %%
 fl.to_csv("google_fl_mobility.csv", index=False)
